@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD500A8167C29B900DFF1FA /* anim.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF4A167C26CD00DFF1FA /* anim.h */; };
+		AAD500A9167C29B900DFF1FA /* clip.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF50167C26CD00DFF1FA /* clip.h */; };
+		AAD500AA167C29B900DFF1FA /* color.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF57167C26CD00DFF1FA /* color.h */; };
+		AAD500AB167C29B900DFF1FA /* csg.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF5D167C26CD00DFF1FA /* csg.h */; };
+		AAD500AC167C29B900DFF1FA /* csg.tab.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF5E167C26CD00DFF1FA /* csg.tab.h */; };
+		AAD500AD167C29B900DFF1FA /* csgy.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF60167C26CD00DFF1FA /* csgy.h */; };
+		AAD500AE167C29B900DFF1FA /* gener.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF67167C26CD00DFF1FA /* gener.h */; };
+		AAD500AF167C29B900DFF1FA /* geom.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF6B167C26CD00DFF1FA /* geom.h */; };
+		AAD500B0167C29B900DFF1FA /* ray.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF6F167C26CD00DFF1FA /* ray.h */; };
+		AAD500B1167C29B900DFF1FA /* hier.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF83167C26CD00DFF1FA /* hier.h */; };
+		AAD500B2167C29B900DFF1FA /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF85167C26CD00DFF1FA /* stack.h */; };
+		AAD500B3167C29B900DFF1FA /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF89167C26CD00DFF1FA /* image.h */; };
+		AAD500B4167C29B900DFF1FA /* mallocvar.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF8D167C26CD00DFF1FA /* mallocvar.h */; };
+		AAD500B5167C29B900DFF1FA /* pm_config.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF8E167C26CD00DFF1FA /* pm_config.h */; };
+		AAD500B6167C29B900DFF1FA /* ppm.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF8F167C26CD00DFF1FA /* ppm.h */; };
+		AAD500B7167C29B900DFF1FA /* ortho.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFBA167C26CD00DFF1FA /* ortho.h */; };
+		AAD500B8167C29B900DFF1FA /* plot.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFBC167C26CD00DFF1FA /* plot.h */; };
+		AAD500B9167C29B900DFF1FA /* prim.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFC6167C26CD00DFF1FA /* prim.h */; };
+		AAD500BA167C29B900DFF1FA /* sphere.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFC8167C26CD00DFF1FA /* sphere.h */; };
+		AAD500BB167C29B900DFF1FA /* radiosity.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFCC167C26CD00DFF1FA /* radiosity.h */; };
+		AAD500BC167C29B900DFF1FA /* raster.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFCF167C26CD00DFF1FA /* raster.h */; };
+		AAD500BD167C29B900DFF1FA /* scan_obj.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFD1167C26CD00DFF1FA /* scan_obj.h */; };
+		AAD500BE167C29B900DFF1FA /* rshade.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFD8167C26CD00DFF1FA /* rshade.h */; };
+		AAD500BF167C29B900DFF1FA /* obj.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFDC167C26CD00DFF1FA /* obj.h */; };
+		AAD500C0167C29B900DFF1FA /* scene.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFDE167C26CD00DFF1FA /* scene.h */; };
+		AAD500C1167C29B900DFF1FA /* shade.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFE7167C26CD00DFF1FA /* shade.h */; };
+		AAD500C2167C29B900DFF1FA /* view.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFED167C26CE00DFF1FA /* view.h */; };
+		AAD500C3167C29B900DFF1FA /* rt.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFF1167C26CE00DFF1FA /* rt.h */; };
+		AAD500C4167C29B900DFF1FA /* rtcsg.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFF3167C26CE00DFF1FA /* rtcsg.h */; };
+		AAD500C5167C29B900DFF1FA /* zbuf.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFF5167C26CE00DFF1FA /* zbuf.h */; };
+		AAD500C6167C29B900DFF1FA /* zsort.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFF7167C26CE00DFF1FA /* zsort.h */; };
+		AAD500C7167C29EC00DFF1FA /* anim.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF49167C26CD00DFF1FA /* anim.c */; };
+		AAD500C8167C29EC00DFF1FA /* arg.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF4B167C26CD00DFF1FA /* arg.c */; };
+		AAD500C9167C29EC00DFF1FA /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF4D167C26CD00DFF1FA /* time.c */; };
+		AAD500CA167C29EC00DFF1FA /* clip.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF4F167C26CD00DFF1FA /* clip.c */; };
+		AAD500CB167C29EC00DFF1FA /* cull.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF52167C26CD00DFF1FA /* cull.c */; };
+		AAD500CC167C29EC00DFF1FA /* twopass.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF53167C26CD00DFF1FA /* twopass.c */; };
+		AAD500CD167C29EC00DFF1FA /* conv.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF58167C26CD00DFF1FA /* conv.c */; };
+		AAD500CE167C29EC00DFF1FA /* index.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF59167C26CD00DFF1FA /* index.c */; };
+		AAD500CF167C29EC00DFF1FA /* rgbhsv.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF5A167C26CD00DFF1FA /* rgbhsv.c */; };
+		AAD500D0167C29EC00DFF1FA /* lang.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF61167C26CD00DFF1FA /* lang.c */; };
+		AAD500D1167C29EC00DFF1FA /* ops.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF63167C26CD00DFF1FA /* ops.c */; };
+		AAD500D2167C29EC00DFF1FA /* affine.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF65167C26CD00DFF1FA /* affine.c */; };
+		AAD500D3167C29EC00DFF1FA /* rotsurf.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF68167C26CD00DFF1FA /* rotsurf.c */; };
+		AAD500D4167C29EC00DFF1FA /* inode.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF6C167C26CD00DFF1FA /* inode.c */; };
+		AAD500D5167C29EC00DFF1FA /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF6D167C26CD00DFF1FA /* matrix.c */; };
+		AAD500D6167C29EC00DFF1FA /* ray.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF6E167C26CD00DFF1FA /* ray.c */; };
+		AAD500D7167C29EC00DFF1FA /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF70167C26CD00DFF1FA /* vector.c */; };
+		AAD500D8167C29EC00DFF1FA /* dv.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF73167C26CD00DFF1FA /* dv.c */; };
+		AAD500D9167C29EC00DFF1FA /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF74167C26CD00DFF1FA /* font.c */; };
+		AAD500DA167C29EC00DFF1FA /* gp.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF76167C26CD00DFF1FA /* gp.c */; };
+		AAD500DB167C29EC00DFF1FA /* cb.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF79167C26CD00DFF1FA /* cb.c */; };
+		AAD500DC167C29EC00DFF1FA /* md.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF7C167C26CD00DFF1FA /* md.c */; };
+		AAD500DD167C29EC00DFF1FA /* mv.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF7D167C26CD00DFF1FA /* mv.c */; };
+		AAD500DE167C29EC00DFF1FA /* mvcb.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF7F167C26CD00DFF1FA /* mvcb.c */; };
+		AAD500DF167C29EC00DFF1FA /* hier.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF82167C26CD00DFF1FA /* hier.c */; };
+		AAD500E0167C29EC00DFF1FA /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF84167C26CD00DFF1FA /* stack.c */; };
+		AAD500E1167C29EC00DFF1FA /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF88167C26CD00DFF1FA /* image.c */; };
+		AAD500E2167C29EC00DFF1FA /* libpm.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF8B167C26CD00DFF1FA /* libpm.c */; };
+		AAD500E3167C29EC00DFF1FA /* libppm.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF8C167C26CD00DFF1FA /* libppm.c */; };
+		AAD500E4167C29EC00DFF1FA /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF91167C26CD00DFF1FA /* image.c */; };
+		AAD500E5167C29EC00DFF1FA /* sunras.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF95167C26CD00DFF1FA /* sunras.c */; };
+		AAD500E6167C29EC00DFF1FA /* lex.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF99167C26CD00DFF1FA /* lex.c */; };
+		AAD500E7167C29EC00DFF1FA /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF9B167C26CD00DFF1FA /* node.c */; };
+		AAD500E8167C29EC00DFF1FA /* pv.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF9D167C26CD00DFF1FA /* pv.c */; };
+		AAD500E9167C29EC00DFF1FA /* pvl.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FF9E167C26CD00DFF1FA /* pvl.c */; };
+		AAD500EA167C29EC00DFF1FA /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFA0167C26CD00DFF1FA /* symbol.c */; };
+		AAD500EB167C29EC00DFF1FA /* y.tab.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFA2167C26CD00DFF1FA /* y.tab.c */; };
+		AAD500EC167C29EC00DFF1FA /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFA7167C26CD00DFF1FA /* error.c */; };
+		AAD500ED167C29EC00DFF1FA /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFA8167C26CD00DFF1FA /* io.c */; };
+		AAD500EE167C29EC00DFF1FA /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFAA167C26CD00DFF1FA /* list.c */; };
+		AAD500EF167C29EC00DFF1FA /* mem.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFAC167C26CD00DFF1FA /* mem.c */; };
+		AAD500F0167C29EC00DFF1FA /* funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFAF167C26CD00DFF1FA /* funcs.c */; };
+		AAD500F1167C29EC00DFF1FA /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFB0167C26CD00DFF1FA /* image.c */; };
+		AAD500F2167C29EC00DFF1FA /* lang.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFB1167C26CD00DFF1FA /* lang.c */; };
+		AAD500F3167C29EC00DFF1FA /* light.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFB2167C26CD00DFF1FA /* light.c */; };
+		AAD500F4167C29EC00DFF1FA /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFB3167C26CD00DFF1FA /* map.c */; };
+		AAD500F5167C29EC00DFF1FA /* material.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFB5167C26CD00DFF1FA /* material.c */; };
+		AAD500F6167C29EC00DFF1FA /* shade.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFB6167C26CD00DFF1FA /* shade.c */; };
+		AAD500F7167C29EC00DFF1FA /* ortho.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFB9167C26CD00DFF1FA /* ortho.c */; };
+		AAD500F8167C29EC00DFF1FA /* plot.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFBB167C26CD00DFF1FA /* plot.c */; };
+		AAD500F9167C29EC00DFF1FA /* hpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFBF167C26CD00DFF1FA /* hpoly.c */; };
+		AAD500FA167C29EC00DFF1FA /* poly.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFC1167C26CD00DFF1FA /* poly.c */; };
+		AAD500FB167C29EC00DFF1FA /* prim.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFC5167C26CD00DFF1FA /* prim.c */; };
+		AAD500FC167C29EC00DFF1FA /* sphere.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFC7167C26CD00DFF1FA /* sphere.c */; };
+		AAD500FD167C29EC00DFF1FA /* radiosity.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFCB167C26CD00DFF1FA /* radiosity.c */; };
+		AAD500FE167C29EC00DFF1FA /* scan_obj.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFD0167C26CD00DFF1FA /* scan_obj.c */; };
+		AAD500FF167C29EC00DFF1FA /* scan_space.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFD2167C26CD00DFF1FA /* scan_space.c */; };
+		AAD50100167C29EC00DFF1FA /* subdiv_obj.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFD3167C26CD00DFF1FA /* subdiv_obj.c */; };
+		AAD50101167C29EC00DFF1FA /* subdiv_space.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFD4167C26CD00DFF1FA /* subdiv_space.c */; };
+		AAD50102167C29EC00DFF1FA /* rshade.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFD7167C26CD00DFF1FA /* rshade.c */; };
+		AAD50103167C29EC00DFF1FA /* obj.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFDB167C26CD00DFF1FA /* obj.c */; };
+		AAD50104167C29EC00DFF1FA /* scene.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFDD167C26CD00DFF1FA /* scene.c */; };
+		AAD50105167C29EC00DFF1FA /* illum.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFE1167C26CD00DFF1FA /* illum.c */; };
+		AAD50106167C29EC00DFF1FA /* lang.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFE2167C26CD00DFF1FA /* lang.c */; };
+		AAD50107167C29EC00DFF1FA /* light.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFE3167C26CD00DFF1FA /* light.c */; };
+		AAD50108167C29EC00DFF1FA /* material.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFE4167C26CD00DFF1FA /* material.c */; };
+		AAD50109167C29EC00DFF1FA /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFE5167C26CD00DFF1FA /* misc.c */; };
+		AAD5010A167C29EC00DFF1FA /* shade.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFE6167C26CD00DFF1FA /* shade.c */; };
+		AAD5010B167C29EC00DFF1FA /* def.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFEA167C26CD00DFF1FA /* def.c */; };
+		AAD5010C167C29EC00DFF1FA /* lang.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFEB167C26CD00DFF1FA /* lang.c */; };
+		AAD5010D167C29EC00DFF1FA /* set.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFEC167C26CD00DFF1FA /* set.c */; };
+		AAD5010E167C29EC00DFF1FA /* rt.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFF0167C26CE00DFF1FA /* rt.c */; };
+		AAD5010F167C29EC00DFF1FA /* rtcsg.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFF2167C26CE00DFF1FA /* rtcsg.c */; };
+		AAD50110167C29EC00DFF1FA /* zbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFF4167C26CE00DFF1FA /* zbuf.c */; };
+		AAD50111167C29EC00DFF1FA /* zsort.c in Sources */ = {isa = PBXBuildFile; fileRef = AAD5FFF6167C26CE00DFF1FA /* zsort.c */; };
+		AAD50112167C2A0800DFF1FA /* font.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF75167C26CD00DFF1FA /* font.h */; };
+		AAD50113167C2A0800DFF1FA /* gp.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF77167C26CD00DFF1FA /* gp.h */; };
+		AAD50114167C2A0800DFF1FA /* cb.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF7A167C26CD00DFF1FA /* cb.h */; };
+		AAD50115167C2A0800DFF1FA /* mv.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF7E167C26CD00DFF1FA /* mv.h */; };
+		AAD50116167C2A0800DFF1FA /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF92167C26CD00DFF1FA /* image.h */; };
+		AAD50117167C2A0800DFF1FA /* rasterfile.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF94167C26CD00DFF1FA /* rasterfile.h */; };
+		AAD50118167C2A0800DFF1FA /* lang.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF98167C26CD00DFF1FA /* lang.h */; };
+		AAD50119167C2A0800DFF1FA /* sdltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FF9F167C26CD00DFF1FA /* sdltypes.h */; };
+		AAD5011A167C2A0800DFF1FA /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFA1167C26CD00DFF1FA /* symbol.h */; };
+		AAD5011B167C2A0800DFF1FA /* y.tab.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFA3167C26CD00DFF1FA /* y.tab.h */; };
+		AAD5011C167C2A0800DFF1FA /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFA6167C26CD00DFF1FA /* defs.h */; };
+		AAD5011D167C2A0800DFF1FA /* laux.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFA9167C26CD00DFF1FA /* laux.h */; };
+		AAD5011E167C2A0800DFF1FA /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFAB167C26CD00DFF1FA /* list.h */; };
+		AAD5011F167C2A0800DFF1FA /* map.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFB4167C26CD00DFF1FA /* map.h */; };
+		AAD50120167C2A0800DFF1FA /* hpoly.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFC0167C26CD00DFF1FA /* hpoly.h */; };
+		AAD50121167C2A0800DFF1FA /* poly.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5FFC2167C26CD00DFF1FA /* poly.h */; };
+		AAD50124167C2AE900DFF1FA /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD50122167C2AE900DFF1FA /* AGL.framework */; };
+		AAD50125167C2AE900DFF1FA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD50123167C2AE900DFF1FA /* OpenGL.framework */; };
+		AAD50127167C2BB000DFF1FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD50126167C2BB000DFF1FA /* Cocoa.framework */; };
+		AAD5012C167C2F8000DFF1FA /* libSDL-1.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD50129167C2F8000DFF1FA /* libSDL-1.2.0.dylib */; };
+		AAD5012D167C2F8000DFF1FA /* libSDLmain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD5012A167C2F8000DFF1FA /* libSDLmain.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAD500A4167C293A00DFF1FA /* libS3D.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libS3D.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD50122167C2AE900DFF1FA /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = ../../../../../../System/Library/Frameworks/AGL.framework; sourceTree = "<group>"; };
+		AAD50123167C2AE900DFF1FA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		AAD50126167C2BB000DFF1FA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
+		AAD50129167C2F8000DFF1FA /* libSDL-1.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL-1.2.0.dylib"; path = "../../../../../../opt/local/lib/libSDL-1.2.0.dylib"; sourceTree = "<group>"; };
+		AAD5012A167C2F8000DFF1FA /* libSDLmain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDLmain.a; path = ../../../../../../opt/local/lib/libSDLmain.a; sourceTree = "<group>"; };
+		AAD5FF49167C26CD00DFF1FA /* anim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = anim.c; sourceTree = "<group>"; };
+		AAD5FF4A167C26CD00DFF1FA /* anim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anim.h; sourceTree = "<group>"; };
+		AAD5FF4B167C26CD00DFF1FA /* arg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arg.c; sourceTree = "<group>"; };
+		AAD5FF4C167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF4D167C26CD00DFF1FA /* time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = time.c; sourceTree = "<group>"; };
+		AAD5FF4F167C26CD00DFF1FA /* clip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = clip.c; sourceTree = "<group>"; };
+		AAD5FF50167C26CD00DFF1FA /* clip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clip.h; sourceTree = "<group>"; };
+		AAD5FF51167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF52167C26CD00DFF1FA /* cull.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cull.c; sourceTree = "<group>"; };
+		AAD5FF53167C26CD00DFF1FA /* twopass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = twopass.c; sourceTree = "<group>"; };
+		AAD5FF54167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF56167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF57167C26CD00DFF1FA /* color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		AAD5FF58167C26CD00DFF1FA /* conv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conv.c; sourceTree = "<group>"; };
+		AAD5FF59167C26CD00DFF1FA /* index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = index.c; sourceTree = "<group>"; };
+		AAD5FF5A167C26CD00DFF1FA /* rgbhsv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rgbhsv.c; sourceTree = "<group>"; };
+		AAD5FF5C167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF5D167C26CD00DFF1FA /* csg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = csg.h; sourceTree = "<group>"; };
+		AAD5FF5E167C26CD00DFF1FA /* csg.tab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = csg.tab.h; sourceTree = "<group>"; };
+		AAD5FF5F167C26CD00DFF1FA /* csg.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = csg.y; sourceTree = "<group>"; };
+		AAD5FF60167C26CD00DFF1FA /* csgy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = csgy.h; sourceTree = "<group>"; };
+		AAD5FF61167C26CD00DFF1FA /* lang.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lang.c; sourceTree = "<group>"; };
+		AAD5FF62167C26CD00DFF1FA /* lex.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = lex.l; sourceTree = "<group>"; };
+		AAD5FF63167C26CD00DFF1FA /* ops.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ops.c; sourceTree = "<group>"; };
+		AAD5FF65167C26CD00DFF1FA /* affine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = affine.c; sourceTree = "<group>"; };
+		AAD5FF66167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF67167C26CD00DFF1FA /* gener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gener.h; sourceTree = "<group>"; };
+		AAD5FF68167C26CD00DFF1FA /* rotsurf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rotsurf.c; sourceTree = "<group>"; };
+		AAD5FF6A167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF6B167C26CD00DFF1FA /* geom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geom.h; sourceTree = "<group>"; };
+		AAD5FF6C167C26CD00DFF1FA /* inode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inode.c; sourceTree = "<group>"; };
+		AAD5FF6D167C26CD00DFF1FA /* matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
+		AAD5FF6E167C26CD00DFF1FA /* ray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ray.c; sourceTree = "<group>"; };
+		AAD5FF6F167C26CD00DFF1FA /* ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		AAD5FF70167C26CD00DFF1FA /* vector.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = "<group>"; };
+		AAD5FF72167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF73167C26CD00DFF1FA /* dv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dv.c; sourceTree = "<group>"; };
+		AAD5FF74167C26CD00DFF1FA /* font.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = font.c; sourceTree = "<group>"; };
+		AAD5FF75167C26CD00DFF1FA /* font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		AAD5FF76167C26CD00DFF1FA /* gp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gp.c; sourceTree = "<group>"; };
+		AAD5FF77167C26CD00DFF1FA /* gp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gp.h; sourceTree = "<group>"; };
+		AAD5FF79167C26CD00DFF1FA /* cb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cb.c; sourceTree = "<group>"; };
+		AAD5FF7A167C26CD00DFF1FA /* cb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cb.h; sourceTree = "<group>"; };
+		AAD5FF7B167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF7C167C26CD00DFF1FA /* md.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md.c; sourceTree = "<group>"; };
+		AAD5FF7D167C26CD00DFF1FA /* mv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mv.c; sourceTree = "<group>"; };
+		AAD5FF7E167C26CD00DFF1FA /* mv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mv.h; sourceTree = "<group>"; };
+		AAD5FF7F167C26CD00DFF1FA /* mvcb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mvcb.c; sourceTree = "<group>"; };
+		AAD5FF81167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF82167C26CD00DFF1FA /* hier.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hier.c; sourceTree = "<group>"; };
+		AAD5FF83167C26CD00DFF1FA /* hier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hier.h; sourceTree = "<group>"; };
+		AAD5FF84167C26CD00DFF1FA /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		AAD5FF85167C26CD00DFF1FA /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		AAD5FF87167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF88167C26CD00DFF1FA /* image.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = image.c; sourceTree = "<group>"; };
+		AAD5FF89167C26CD00DFF1FA /* image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		AAD5FF8B167C26CD00DFF1FA /* libpm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libpm.c; sourceTree = "<group>"; };
+		AAD5FF8C167C26CD00DFF1FA /* libppm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libppm.c; sourceTree = "<group>"; };
+		AAD5FF8D167C26CD00DFF1FA /* mallocvar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mallocvar.h; sourceTree = "<group>"; };
+		AAD5FF8E167C26CD00DFF1FA /* pm_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pm_config.h; sourceTree = "<group>"; };
+		AAD5FF8F167C26CD00DFF1FA /* ppm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ppm.h; sourceTree = "<group>"; };
+		AAD5FF91167C26CD00DFF1FA /* image.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = image.c; sourceTree = "<group>"; };
+		AAD5FF92167C26CD00DFF1FA /* image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		AAD5FF93167C26CD00DFF1FA /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		AAD5FF94167C26CD00DFF1FA /* rasterfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rasterfile.h; sourceTree = "<group>"; };
+		AAD5FF95167C26CD00DFF1FA /* sunras.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sunras.c; sourceTree = "<group>"; };
+		AAD5FF97167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FF98167C26CD00DFF1FA /* lang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lang.h; sourceTree = "<group>"; };
+		AAD5FF99167C26CD00DFF1FA /* lex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lex.c; sourceTree = "<group>"; };
+		AAD5FF9A167C26CD00DFF1FA /* liblang.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblang.a; sourceTree = "<group>"; };
+		AAD5FF9B167C26CD00DFF1FA /* node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = node.c; sourceTree = "<group>"; };
+		AAD5FF9C167C26CD00DFF1FA /* parser.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = parser.y; sourceTree = "<group>"; };
+		AAD5FF9D167C26CD00DFF1FA /* pv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pv.c; sourceTree = "<group>"; };
+		AAD5FF9E167C26CD00DFF1FA /* pvl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pvl.c; sourceTree = "<group>"; };
+		AAD5FF9F167C26CD00DFF1FA /* sdltypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdltypes.h; sourceTree = "<group>"; };
+		AAD5FFA0167C26CD00DFF1FA /* symbol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = symbol.c; sourceTree = "<group>"; };
+		AAD5FFA1167C26CD00DFF1FA /* symbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = symbol.h; sourceTree = "<group>"; };
+		AAD5FFA2167C26CD00DFF1FA /* y.tab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = y.tab.c; sourceTree = "<group>"; };
+		AAD5FFA3167C26CD00DFF1FA /* y.tab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = y.tab.h; sourceTree = "<group>"; };
+		AAD5FFA5167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFA6167C26CD00DFF1FA /* defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		AAD5FFA7167C26CD00DFF1FA /* error.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		AAD5FFA8167C26CD00DFF1FA /* io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		AAD5FFA9167C26CD00DFF1FA /* laux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = laux.h; sourceTree = "<group>"; };
+		AAD5FFAA167C26CD00DFF1FA /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		AAD5FFAB167C26CD00DFF1FA /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		AAD5FFAC167C26CD00DFF1FA /* mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mem.c; sourceTree = "<group>"; };
+		AAD5FFAE167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFAF167C26CD00DFF1FA /* funcs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = funcs.c; sourceTree = "<group>"; };
+		AAD5FFB0167C26CD00DFF1FA /* image.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = image.c; sourceTree = "<group>"; };
+		AAD5FFB1167C26CD00DFF1FA /* lang.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lang.c; sourceTree = "<group>"; };
+		AAD5FFB2167C26CD00DFF1FA /* light.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = light.c; sourceTree = "<group>"; };
+		AAD5FFB3167C26CD00DFF1FA /* map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = map.c; sourceTree = "<group>"; };
+		AAD5FFB4167C26CD00DFF1FA /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		AAD5FFB5167C26CD00DFF1FA /* material.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = material.c; sourceTree = "<group>"; };
+		AAD5FFB6167C26CD00DFF1FA /* shade.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shade.c; sourceTree = "<group>"; };
+		AAD5FFB8167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFB9167C26CD00DFF1FA /* ortho.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ortho.c; sourceTree = "<group>"; };
+		AAD5FFBA167C26CD00DFF1FA /* ortho.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ortho.h; sourceTree = "<group>"; };
+		AAD5FFBB167C26CD00DFF1FA /* plot.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plot.c; sourceTree = "<group>"; };
+		AAD5FFBC167C26CD00DFF1FA /* plot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plot.h; sourceTree = "<group>"; };
+		AAD5FFBE167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFBF167C26CD00DFF1FA /* hpoly.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hpoly.c; sourceTree = "<group>"; };
+		AAD5FFC0167C26CD00DFF1FA /* hpoly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hpoly.h; sourceTree = "<group>"; };
+		AAD5FFC1167C26CD00DFF1FA /* poly.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = poly.c; sourceTree = "<group>"; };
+		AAD5FFC2167C26CD00DFF1FA /* poly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = poly.h; sourceTree = "<group>"; };
+		AAD5FFC4167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFC5167C26CD00DFF1FA /* prim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prim.c; sourceTree = "<group>"; };
+		AAD5FFC6167C26CD00DFF1FA /* prim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prim.h; sourceTree = "<group>"; };
+		AAD5FFC7167C26CD00DFF1FA /* sphere.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sphere.c; sourceTree = "<group>"; };
+		AAD5FFC8167C26CD00DFF1FA /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		AAD5FFCA167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFCB167C26CD00DFF1FA /* radiosity.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = radiosity.c; sourceTree = "<group>"; };
+		AAD5FFCC167C26CD00DFF1FA /* radiosity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radiosity.h; sourceTree = "<group>"; };
+		AAD5FFCE167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFCF167C26CD00DFF1FA /* raster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = raster.h; sourceTree = "<group>"; };
+		AAD5FFD0167C26CD00DFF1FA /* scan_obj.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scan_obj.c; sourceTree = "<group>"; };
+		AAD5FFD1167C26CD00DFF1FA /* scan_obj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scan_obj.h; sourceTree = "<group>"; };
+		AAD5FFD2167C26CD00DFF1FA /* scan_space.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scan_space.c; sourceTree = "<group>"; };
+		AAD5FFD3167C26CD00DFF1FA /* subdiv_obj.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = subdiv_obj.c; sourceTree = "<group>"; };
+		AAD5FFD4167C26CD00DFF1FA /* subdiv_space.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = subdiv_space.c; sourceTree = "<group>"; };
+		AAD5FFD6167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFD7167C26CD00DFF1FA /* rshade.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rshade.c; sourceTree = "<group>"; };
+		AAD5FFD8167C26CD00DFF1FA /* rshade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rshade.h; sourceTree = "<group>"; };
+		AAD5FFDA167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFDB167C26CD00DFF1FA /* obj.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = obj.c; sourceTree = "<group>"; };
+		AAD5FFDC167C26CD00DFF1FA /* obj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obj.h; sourceTree = "<group>"; };
+		AAD5FFDD167C26CD00DFF1FA /* scene.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scene.c; sourceTree = "<group>"; };
+		AAD5FFDE167C26CD00DFF1FA /* scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		AAD5FFE0167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFE1167C26CD00DFF1FA /* illum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = illum.c; sourceTree = "<group>"; };
+		AAD5FFE2167C26CD00DFF1FA /* lang.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lang.c; sourceTree = "<group>"; };
+		AAD5FFE3167C26CD00DFF1FA /* light.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = light.c; sourceTree = "<group>"; };
+		AAD5FFE4167C26CD00DFF1FA /* material.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = material.c; sourceTree = "<group>"; };
+		AAD5FFE5167C26CD00DFF1FA /* misc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		AAD5FFE6167C26CD00DFF1FA /* shade.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shade.c; sourceTree = "<group>"; };
+		AAD5FFE7167C26CD00DFF1FA /* shade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shade.h; sourceTree = "<group>"; };
+		AAD5FFE9167C26CD00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFEA167C26CD00DFF1FA /* def.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = def.c; sourceTree = "<group>"; };
+		AAD5FFEB167C26CD00DFF1FA /* lang.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lang.c; sourceTree = "<group>"; };
+		AAD5FFEC167C26CD00DFF1FA /* set.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = set.c; sourceTree = "<group>"; };
+		AAD5FFED167C26CE00DFF1FA /* view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = view.h; sourceTree = "<group>"; };
+		AAD5FFEF167C26CE00DFF1FA /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AAD5FFF0167C26CE00DFF1FA /* rt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rt.c; sourceTree = "<group>"; };
+		AAD5FFF1167C26CE00DFF1FA /* rt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rt.h; sourceTree = "<group>"; };
+		AAD5FFF2167C26CE00DFF1FA /* rtcsg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rtcsg.c; sourceTree = "<group>"; };
+		AAD5FFF3167C26CE00DFF1FA /* rtcsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtcsg.h; sourceTree = "<group>"; };
+		AAD5FFF4167C26CE00DFF1FA /* zbuf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zbuf.c; sourceTree = "<group>"; };
+		AAD5FFF5167C26CE00DFF1FA /* zbuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zbuf.h; sourceTree = "<group>"; };
+		AAD5FFF6167C26CE00DFF1FA /* zsort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zsort.c; sourceTree = "<group>"; };
+		AAD5FFF7167C26CE00DFF1FA /* zsort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zsort.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD500A1167C293A00DFF1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD50124167C2AE900DFF1FA /* AGL.framework in Frameworks */,
+				AAD50125167C2AE900DFF1FA /* OpenGL.framework in Frameworks */,
+				AAD50127167C2BB000DFF1FA /* Cocoa.framework in Frameworks */,
+				AAD5012C167C2F8000DFF1FA /* libSDL-1.2.0.dylib in Frameworks */,
+				AAD5012D167C2F8000DFF1FA /* libSDLmain.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD50071167C285200DFF1FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD500A4167C293A00DFF1FA /* libS3D.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD50084167C28EE00DFF1FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAD50129167C2F8000DFF1FA /* libSDL-1.2.0.dylib */,
+				AAD5012A167C2F8000DFF1FA /* libSDLmain.a */,
+				AAD50126167C2BB000DFF1FA /* Cocoa.framework */,
+				AAD50122167C2AE900DFF1FA /* AGL.framework */,
+				AAD50123167C2AE900DFF1FA /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAD5FF3E167C26AF00DFF1FA = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF47167C26CD00DFF1FA /* base */,
+				AAD50084167C28EE00DFF1FA /* Frameworks */,
+				AAD50071167C285200DFF1FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD5FF47167C26CD00DFF1FA /* base */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF48167C26CD00DFF1FA /* anim */,
+				AAD5FF4E167C26CD00DFF1FA /* clip */,
+				AAD5FF54167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF55167C26CD00DFF1FA /* color */,
+				AAD5FF5B167C26CD00DFF1FA /* csg */,
+				AAD5FF64167C26CD00DFF1FA /* gener */,
+				AAD5FF69167C26CD00DFF1FA /* geom */,
+				AAD5FF71167C26CD00DFF1FA /* gp */,
+				AAD5FF78167C26CD00DFF1FA /* gutil */,
+				AAD5FF80167C26CD00DFF1FA /* hier */,
+				AAD5FF86167C26CD00DFF1FA /* image */,
+				AAD5FF96167C26CD00DFF1FA /* lang */,
+				AAD5FFA4167C26CD00DFF1FA /* laux */,
+				AAD5FFAD167C26CD00DFF1FA /* map */,
+				AAD5FFB7167C26CD00DFF1FA /* plot */,
+				AAD5FFBD167C26CD00DFF1FA /* poly */,
+				AAD5FFC3167C26CD00DFF1FA /* prim */,
+				AAD5FFC9167C26CD00DFF1FA /* rad */,
+				AAD5FFCD167C26CD00DFF1FA /* raster */,
+				AAD5FFD5167C26CD00DFF1FA /* ray */,
+				AAD5FFD9167C26CD00DFF1FA /* scene */,
+				AAD5FFDF167C26CD00DFF1FA /* shade */,
+				AAD5FFE8167C26CD00DFF1FA /* view */,
+				AAD5FFEE167C26CE00DFF1FA /* visib */,
+			);
+			name = base;
+			path = ../base;
+			sourceTree = "<group>";
+		};
+		AAD5FF48167C26CD00DFF1FA /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF49167C26CD00DFF1FA /* anim.c */,
+				AAD5FF4A167C26CD00DFF1FA /* anim.h */,
+				AAD5FF4B167C26CD00DFF1FA /* arg.c */,
+				AAD5FF4C167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF4D167C26CD00DFF1FA /* time.c */,
+			);
+			path = anim;
+			sourceTree = "<group>";
+		};
+		AAD5FF4E167C26CD00DFF1FA /* clip */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF4F167C26CD00DFF1FA /* clip.c */,
+				AAD5FF50167C26CD00DFF1FA /* clip.h */,
+				AAD5FF51167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF52167C26CD00DFF1FA /* cull.c */,
+				AAD5FF53167C26CD00DFF1FA /* twopass.c */,
+			);
+			path = clip;
+			sourceTree = "<group>";
+		};
+		AAD5FF55167C26CD00DFF1FA /* color */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF56167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF57167C26CD00DFF1FA /* color.h */,
+				AAD5FF58167C26CD00DFF1FA /* conv.c */,
+				AAD5FF59167C26CD00DFF1FA /* index.c */,
+				AAD5FF5A167C26CD00DFF1FA /* rgbhsv.c */,
+			);
+			path = color;
+			sourceTree = "<group>";
+		};
+		AAD5FF5B167C26CD00DFF1FA /* csg */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF5C167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF5D167C26CD00DFF1FA /* csg.h */,
+				AAD5FF5E167C26CD00DFF1FA /* csg.tab.h */,
+				AAD5FF5F167C26CD00DFF1FA /* csg.y */,
+				AAD5FF60167C26CD00DFF1FA /* csgy.h */,
+				AAD5FF61167C26CD00DFF1FA /* lang.c */,
+				AAD5FF62167C26CD00DFF1FA /* lex.l */,
+				AAD5FF63167C26CD00DFF1FA /* ops.c */,
+			);
+			path = csg;
+			sourceTree = "<group>";
+		};
+		AAD5FF64167C26CD00DFF1FA /* gener */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF65167C26CD00DFF1FA /* affine.c */,
+				AAD5FF66167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF67167C26CD00DFF1FA /* gener.h */,
+				AAD5FF68167C26CD00DFF1FA /* rotsurf.c */,
+			);
+			path = gener;
+			sourceTree = "<group>";
+		};
+		AAD5FF69167C26CD00DFF1FA /* geom */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF6A167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF6B167C26CD00DFF1FA /* geom.h */,
+				AAD5FF6C167C26CD00DFF1FA /* inode.c */,
+				AAD5FF6D167C26CD00DFF1FA /* matrix.c */,
+				AAD5FF6E167C26CD00DFF1FA /* ray.c */,
+				AAD5FF6F167C26CD00DFF1FA /* ray.h */,
+				AAD5FF70167C26CD00DFF1FA /* vector.c */,
+			);
+			path = geom;
+			sourceTree = "<group>";
+		};
+		AAD5FF71167C26CD00DFF1FA /* gp */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF72167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF73167C26CD00DFF1FA /* dv.c */,
+				AAD5FF74167C26CD00DFF1FA /* font.c */,
+				AAD5FF75167C26CD00DFF1FA /* font.h */,
+				AAD5FF76167C26CD00DFF1FA /* gp.c */,
+				AAD5FF77167C26CD00DFF1FA /* gp.h */,
+			);
+			path = gp;
+			sourceTree = "<group>";
+		};
+		AAD5FF78167C26CD00DFF1FA /* gutil */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF79167C26CD00DFF1FA /* cb.c */,
+				AAD5FF7A167C26CD00DFF1FA /* cb.h */,
+				AAD5FF7B167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF7C167C26CD00DFF1FA /* md.c */,
+				AAD5FF7D167C26CD00DFF1FA /* mv.c */,
+				AAD5FF7E167C26CD00DFF1FA /* mv.h */,
+				AAD5FF7F167C26CD00DFF1FA /* mvcb.c */,
+			);
+			path = gutil;
+			sourceTree = "<group>";
+		};
+		AAD5FF80167C26CD00DFF1FA /* hier */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF81167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF82167C26CD00DFF1FA /* hier.c */,
+				AAD5FF83167C26CD00DFF1FA /* hier.h */,
+				AAD5FF84167C26CD00DFF1FA /* stack.c */,
+				AAD5FF85167C26CD00DFF1FA /* stack.h */,
+			);
+			path = hier;
+			sourceTree = "<group>";
+		};
+		AAD5FF86167C26CD00DFF1FA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF87167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF88167C26CD00DFF1FA /* image.c */,
+				AAD5FF89167C26CD00DFF1FA /* image.h */,
+				AAD5FF8A167C26CD00DFF1FA /* ppm */,
+				AAD5FF90167C26CD00DFF1FA /* raster */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		AAD5FF8A167C26CD00DFF1FA /* ppm */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF8B167C26CD00DFF1FA /* libpm.c */,
+				AAD5FF8C167C26CD00DFF1FA /* libppm.c */,
+				AAD5FF8D167C26CD00DFF1FA /* mallocvar.h */,
+				AAD5FF8E167C26CD00DFF1FA /* pm_config.h */,
+				AAD5FF8F167C26CD00DFF1FA /* ppm.h */,
+			);
+			path = ppm;
+			sourceTree = "<group>";
+		};
+		AAD5FF90167C26CD00DFF1FA /* raster */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF91167C26CD00DFF1FA /* image.c */,
+				AAD5FF92167C26CD00DFF1FA /* image.h */,
+				AAD5FF93167C26CD00DFF1FA /* Makefile */,
+				AAD5FF94167C26CD00DFF1FA /* rasterfile.h */,
+				AAD5FF95167C26CD00DFF1FA /* sunras.c */,
+			);
+			path = raster;
+			sourceTree = "<group>";
+		};
+		AAD5FF96167C26CD00DFF1FA /* lang */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FF97167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FF98167C26CD00DFF1FA /* lang.h */,
+				AAD5FF99167C26CD00DFF1FA /* lex.c */,
+				AAD5FF9A167C26CD00DFF1FA /* liblang.a */,
+				AAD5FF9B167C26CD00DFF1FA /* node.c */,
+				AAD5FF9C167C26CD00DFF1FA /* parser.y */,
+				AAD5FF9D167C26CD00DFF1FA /* pv.c */,
+				AAD5FF9E167C26CD00DFF1FA /* pvl.c */,
+				AAD5FF9F167C26CD00DFF1FA /* sdltypes.h */,
+				AAD5FFA0167C26CD00DFF1FA /* symbol.c */,
+				AAD5FFA1167C26CD00DFF1FA /* symbol.h */,
+				AAD5FFA2167C26CD00DFF1FA /* y.tab.c */,
+				AAD5FFA3167C26CD00DFF1FA /* y.tab.h */,
+			);
+			path = lang;
+			sourceTree = "<group>";
+		};
+		AAD5FFA4167C26CD00DFF1FA /* laux */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFA5167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFA6167C26CD00DFF1FA /* defs.h */,
+				AAD5FFA7167C26CD00DFF1FA /* error.c */,
+				AAD5FFA8167C26CD00DFF1FA /* io.c */,
+				AAD5FFA9167C26CD00DFF1FA /* laux.h */,
+				AAD5FFAA167C26CD00DFF1FA /* list.c */,
+				AAD5FFAB167C26CD00DFF1FA /* list.h */,
+				AAD5FFAC167C26CD00DFF1FA /* mem.c */,
+			);
+			path = laux;
+			sourceTree = "<group>";
+		};
+		AAD5FFAD167C26CD00DFF1FA /* map */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFAE167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFAF167C26CD00DFF1FA /* funcs.c */,
+				AAD5FFB0167C26CD00DFF1FA /* image.c */,
+				AAD5FFB1167C26CD00DFF1FA /* lang.c */,
+				AAD5FFB2167C26CD00DFF1FA /* light.c */,
+				AAD5FFB3167C26CD00DFF1FA /* map.c */,
+				AAD5FFB4167C26CD00DFF1FA /* map.h */,
+				AAD5FFB5167C26CD00DFF1FA /* material.c */,
+				AAD5FFB6167C26CD00DFF1FA /* shade.c */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		AAD5FFB7167C26CD00DFF1FA /* plot */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFB8167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFB9167C26CD00DFF1FA /* ortho.c */,
+				AAD5FFBA167C26CD00DFF1FA /* ortho.h */,
+				AAD5FFBB167C26CD00DFF1FA /* plot.c */,
+				AAD5FFBC167C26CD00DFF1FA /* plot.h */,
+			);
+			path = plot;
+			sourceTree = "<group>";
+		};
+		AAD5FFBD167C26CD00DFF1FA /* poly */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFBE167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFBF167C26CD00DFF1FA /* hpoly.c */,
+				AAD5FFC0167C26CD00DFF1FA /* hpoly.h */,
+				AAD5FFC1167C26CD00DFF1FA /* poly.c */,
+				AAD5FFC2167C26CD00DFF1FA /* poly.h */,
+			);
+			path = poly;
+			sourceTree = "<group>";
+		};
+		AAD5FFC3167C26CD00DFF1FA /* prim */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFC4167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFC5167C26CD00DFF1FA /* prim.c */,
+				AAD5FFC6167C26CD00DFF1FA /* prim.h */,
+				AAD5FFC7167C26CD00DFF1FA /* sphere.c */,
+				AAD5FFC8167C26CD00DFF1FA /* sphere.h */,
+			);
+			path = prim;
+			sourceTree = "<group>";
+		};
+		AAD5FFC9167C26CD00DFF1FA /* rad */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFCA167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFCB167C26CD00DFF1FA /* radiosity.c */,
+				AAD5FFCC167C26CD00DFF1FA /* radiosity.h */,
+			);
+			path = rad;
+			sourceTree = "<group>";
+		};
+		AAD5FFCD167C26CD00DFF1FA /* raster */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFCE167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFCF167C26CD00DFF1FA /* raster.h */,
+				AAD5FFD0167C26CD00DFF1FA /* scan_obj.c */,
+				AAD5FFD1167C26CD00DFF1FA /* scan_obj.h */,
+				AAD5FFD2167C26CD00DFF1FA /* scan_space.c */,
+				AAD5FFD3167C26CD00DFF1FA /* subdiv_obj.c */,
+				AAD5FFD4167C26CD00DFF1FA /* subdiv_space.c */,
+			);
+			path = raster;
+			sourceTree = "<group>";
+		};
+		AAD5FFD5167C26CD00DFF1FA /* ray */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFD6167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFD7167C26CD00DFF1FA /* rshade.c */,
+				AAD5FFD8167C26CD00DFF1FA /* rshade.h */,
+			);
+			path = ray;
+			sourceTree = "<group>";
+		};
+		AAD5FFD9167C26CD00DFF1FA /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFDA167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFDB167C26CD00DFF1FA /* obj.c */,
+				AAD5FFDC167C26CD00DFF1FA /* obj.h */,
+				AAD5FFDD167C26CD00DFF1FA /* scene.c */,
+				AAD5FFDE167C26CD00DFF1FA /* scene.h */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		AAD5FFDF167C26CD00DFF1FA /* shade */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFE0167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFE1167C26CD00DFF1FA /* illum.c */,
+				AAD5FFE2167C26CD00DFF1FA /* lang.c */,
+				AAD5FFE3167C26CD00DFF1FA /* light.c */,
+				AAD5FFE4167C26CD00DFF1FA /* material.c */,
+				AAD5FFE5167C26CD00DFF1FA /* misc.c */,
+				AAD5FFE6167C26CD00DFF1FA /* shade.c */,
+				AAD5FFE7167C26CD00DFF1FA /* shade.h */,
+			);
+			path = shade;
+			sourceTree = "<group>";
+		};
+		AAD5FFE8167C26CD00DFF1FA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFE9167C26CD00DFF1FA /* CMakeLists.txt */,
+				AAD5FFEA167C26CD00DFF1FA /* def.c */,
+				AAD5FFEB167C26CD00DFF1FA /* lang.c */,
+				AAD5FFEC167C26CD00DFF1FA /* set.c */,
+				AAD5FFED167C26CE00DFF1FA /* view.h */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAD5FFEE167C26CE00DFF1FA /* visib */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5FFEF167C26CE00DFF1FA /* CMakeLists.txt */,
+				AAD5FFF0167C26CE00DFF1FA /* rt.c */,
+				AAD5FFF1167C26CE00DFF1FA /* rt.h */,
+				AAD5FFF2167C26CE00DFF1FA /* rtcsg.c */,
+				AAD5FFF3167C26CE00DFF1FA /* rtcsg.h */,
+				AAD5FFF4167C26CE00DFF1FA /* zbuf.c */,
+				AAD5FFF5167C26CE00DFF1FA /* zbuf.h */,
+				AAD5FFF6167C26CE00DFF1FA /* zsort.c */,
+				AAD5FFF7167C26CE00DFF1FA /* zsort.h */,
+			);
+			path = visib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAD500A2167C293A00DFF1FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD50112167C2A0800DFF1FA /* font.h in Headers */,
+				AAD50113167C2A0800DFF1FA /* gp.h in Headers */,
+				AAD50114167C2A0800DFF1FA /* cb.h in Headers */,
+				AAD50115167C2A0800DFF1FA /* mv.h in Headers */,
+				AAD50116167C2A0800DFF1FA /* image.h in Headers */,
+				AAD50117167C2A0800DFF1FA /* rasterfile.h in Headers */,
+				AAD50118167C2A0800DFF1FA /* lang.h in Headers */,
+				AAD50119167C2A0800DFF1FA /* sdltypes.h in Headers */,
+				AAD5011A167C2A0800DFF1FA /* symbol.h in Headers */,
+				AAD5011B167C2A0800DFF1FA /* y.tab.h in Headers */,
+				AAD5011C167C2A0800DFF1FA /* defs.h in Headers */,
+				AAD5011D167C2A0800DFF1FA /* laux.h in Headers */,
+				AAD5011E167C2A0800DFF1FA /* list.h in Headers */,
+				AAD5011F167C2A0800DFF1FA /* map.h in Headers */,
+				AAD50120167C2A0800DFF1FA /* hpoly.h in Headers */,
+				AAD50121167C2A0800DFF1FA /* poly.h in Headers */,
+				AAD500A8167C29B900DFF1FA /* anim.h in Headers */,
+				AAD500A9167C29B900DFF1FA /* clip.h in Headers */,
+				AAD500AA167C29B900DFF1FA /* color.h in Headers */,
+				AAD500AB167C29B900DFF1FA /* csg.h in Headers */,
+				AAD500AC167C29B900DFF1FA /* csg.tab.h in Headers */,
+				AAD500AD167C29B900DFF1FA /* csgy.h in Headers */,
+				AAD500AE167C29B900DFF1FA /* gener.h in Headers */,
+				AAD500AF167C29B900DFF1FA /* geom.h in Headers */,
+				AAD500B0167C29B900DFF1FA /* ray.h in Headers */,
+				AAD500B1167C29B900DFF1FA /* hier.h in Headers */,
+				AAD500B2167C29B900DFF1FA /* stack.h in Headers */,
+				AAD500B3167C29B900DFF1FA /* image.h in Headers */,
+				AAD500B4167C29B900DFF1FA /* mallocvar.h in Headers */,
+				AAD500B5167C29B900DFF1FA /* pm_config.h in Headers */,
+				AAD500B6167C29B900DFF1FA /* ppm.h in Headers */,
+				AAD500B7167C29B900DFF1FA /* ortho.h in Headers */,
+				AAD500B8167C29B900DFF1FA /* plot.h in Headers */,
+				AAD500B9167C29B900DFF1FA /* prim.h in Headers */,
+				AAD500BA167C29B900DFF1FA /* sphere.h in Headers */,
+				AAD500BB167C29B900DFF1FA /* radiosity.h in Headers */,
+				AAD500BC167C29B900DFF1FA /* raster.h in Headers */,
+				AAD500BD167C29B900DFF1FA /* scan_obj.h in Headers */,
+				AAD500BE167C29B900DFF1FA /* rshade.h in Headers */,
+				AAD500BF167C29B900DFF1FA /* obj.h in Headers */,
+				AAD500C0167C29B900DFF1FA /* scene.h in Headers */,
+				AAD500C1167C29B900DFF1FA /* shade.h in Headers */,
+				AAD500C2167C29B900DFF1FA /* view.h in Headers */,
+				AAD500C3167C29B900DFF1FA /* rt.h in Headers */,
+				AAD500C4167C29B900DFF1FA /* rtcsg.h in Headers */,
+				AAD500C5167C29B900DFF1FA /* zbuf.h in Headers */,
+				AAD500C6167C29B900DFF1FA /* zsort.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AAD500A3167C293A00DFF1FA /* S3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD500A5167C293A00DFF1FA /* Build configuration list for PBXNativeTarget "S3D" */;
+			buildPhases = (
+				AAD500A2167C293A00DFF1FA /* Headers */,
+				AAD500A0167C293A00DFF1FA /* Sources */,
+				AAD500A1167C293A00DFF1FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S3D;
+			productName = S3D;
+			productReference = AAD500A4167C293A00DFF1FA /* libS3D.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD5FF40167C26AF00DFF1FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = AAD5FF43167C26AF00DFF1FA /* Build configuration list for PBXProject "S3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAD5FF3E167C26AF00DFF1FA;
+			productRefGroup = AAD50071167C285200DFF1FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD500A3167C293A00DFF1FA /* S3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD500A0167C293A00DFF1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD500C7167C29EC00DFF1FA /* anim.c in Sources */,
+				AAD500C8167C29EC00DFF1FA /* arg.c in Sources */,
+				AAD500C9167C29EC00DFF1FA /* time.c in Sources */,
+				AAD500CA167C29EC00DFF1FA /* clip.c in Sources */,
+				AAD500CB167C29EC00DFF1FA /* cull.c in Sources */,
+				AAD500CC167C29EC00DFF1FA /* twopass.c in Sources */,
+				AAD500CD167C29EC00DFF1FA /* conv.c in Sources */,
+				AAD500CE167C29EC00DFF1FA /* index.c in Sources */,
+				AAD500CF167C29EC00DFF1FA /* rgbhsv.c in Sources */,
+				AAD500D0167C29EC00DFF1FA /* lang.c in Sources */,
+				AAD500D1167C29EC00DFF1FA /* ops.c in Sources */,
+				AAD500D2167C29EC00DFF1FA /* affine.c in Sources */,
+				AAD500D3167C29EC00DFF1FA /* rotsurf.c in Sources */,
+				AAD500D4167C29EC00DFF1FA /* inode.c in Sources */,
+				AAD500D5167C29EC00DFF1FA /* matrix.c in Sources */,
+				AAD500D6167C29EC00DFF1FA /* ray.c in Sources */,
+				AAD500D7167C29EC00DFF1FA /* vector.c in Sources */,
+				AAD500D8167C29EC00DFF1FA /* dv.c in Sources */,
+				AAD500D9167C29EC00DFF1FA /* font.c in Sources */,
+				AAD500DA167C29EC00DFF1FA /* gp.c in Sources */,
+				AAD500DB167C29EC00DFF1FA /* cb.c in Sources */,
+				AAD500DC167C29EC00DFF1FA /* md.c in Sources */,
+				AAD500DD167C29EC00DFF1FA /* mv.c in Sources */,
+				AAD500DE167C29EC00DFF1FA /* mvcb.c in Sources */,
+				AAD500DF167C29EC00DFF1FA /* hier.c in Sources */,
+				AAD500E0167C29EC00DFF1FA /* stack.c in Sources */,
+				AAD500E1167C29EC00DFF1FA /* image.c in Sources */,
+				AAD500E2167C29EC00DFF1FA /* libpm.c in Sources */,
+				AAD500E3167C29EC00DFF1FA /* libppm.c in Sources */,
+				AAD500E4167C29EC00DFF1FA /* image.c in Sources */,
+				AAD500E5167C29EC00DFF1FA /* sunras.c in Sources */,
+				AAD500E6167C29EC00DFF1FA /* lex.c in Sources */,
+				AAD500E7167C29EC00DFF1FA /* node.c in Sources */,
+				AAD500E8167C29EC00DFF1FA /* pv.c in Sources */,
+				AAD500E9167C29EC00DFF1FA /* pvl.c in Sources */,
+				AAD500EA167C29EC00DFF1FA /* symbol.c in Sources */,
+				AAD500EB167C29EC00DFF1FA /* y.tab.c in Sources */,
+				AAD500EC167C29EC00DFF1FA /* error.c in Sources */,
+				AAD500ED167C29EC00DFF1FA /* io.c in Sources */,
+				AAD500EE167C29EC00DFF1FA /* list.c in Sources */,
+				AAD500EF167C29EC00DFF1FA /* mem.c in Sources */,
+				AAD500F0167C29EC00DFF1FA /* funcs.c in Sources */,
+				AAD500F1167C29EC00DFF1FA /* image.c in Sources */,
+				AAD500F2167C29EC00DFF1FA /* lang.c in Sources */,
+				AAD500F3167C29EC00DFF1FA /* light.c in Sources */,
+				AAD500F4167C29EC00DFF1FA /* map.c in Sources */,
+				AAD500F5167C29EC00DFF1FA /* material.c in Sources */,
+				AAD500F6167C29EC00DFF1FA /* shade.c in Sources */,
+				AAD500F7167C29EC00DFF1FA /* ortho.c in Sources */,
+				AAD500F8167C29EC00DFF1FA /* plot.c in Sources */,
+				AAD500F9167C29EC00DFF1FA /* hpoly.c in Sources */,
+				AAD500FA167C29EC00DFF1FA /* poly.c in Sources */,
+				AAD500FB167C29EC00DFF1FA /* prim.c in Sources */,
+				AAD500FC167C29EC00DFF1FA /* sphere.c in Sources */,
+				AAD500FD167C29EC00DFF1FA /* radiosity.c in Sources */,
+				AAD500FE167C29EC00DFF1FA /* scan_obj.c in Sources */,
+				AAD500FF167C29EC00DFF1FA /* scan_space.c in Sources */,
+				AAD50100167C29EC00DFF1FA /* subdiv_obj.c in Sources */,
+				AAD50101167C29EC00DFF1FA /* subdiv_space.c in Sources */,
+				AAD50102167C29EC00DFF1FA /* rshade.c in Sources */,
+				AAD50103167C29EC00DFF1FA /* obj.c in Sources */,
+				AAD50104167C29EC00DFF1FA /* scene.c in Sources */,
+				AAD50105167C29EC00DFF1FA /* illum.c in Sources */,
+				AAD50106167C29EC00DFF1FA /* lang.c in Sources */,
+				AAD50107167C29EC00DFF1FA /* light.c in Sources */,
+				AAD50108167C29EC00DFF1FA /* material.c in Sources */,
+				AAD50109167C29EC00DFF1FA /* misc.c in Sources */,
+				AAD5010A167C29EC00DFF1FA /* shade.c in Sources */,
+				AAD5010B167C29EC00DFF1FA /* def.c in Sources */,
+				AAD5010C167C29EC00DFF1FA /* lang.c in Sources */,
+				AAD5010D167C29EC00DFF1FA /* set.c in Sources */,
+				AAD5010E167C29EC00DFF1FA /* rt.c in Sources */,
+				AAD5010F167C29EC00DFF1FA /* rtcsg.c in Sources */,
+				AAD50110167C29EC00DFF1FA /* zbuf.c in Sources */,
+				AAD50111167C29EC00DFF1FA /* zsort.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAD500A6167C293A00DFF1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAD500A7167C293A00DFF1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAD5FF45167C26AF00DFF1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include/SDL,
+					/opt/local/include/netpbm,
+					/opt/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+			};
+			name = Debug;
+		};
+		AAD5FF46167C26AF00DFF1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include/SDL,
+					/opt/local/include/netpbm,
+					/opt/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD500A5167C293A00DFF1FA /* Build configuration list for PBXNativeTarget "S3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD500A6167C293A00DFF1FA /* Debug */,
+				AAD500A7167C293A00DFF1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAD5FF43167C26AF00DFF1FA /* Build configuration list for PBXProject "S3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD5FF45167C26AF00DFF1FA /* Debug */,
+				AAD5FF46167C26AF00DFF1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD5FF40167C26AF00DFF1FA /* Project object */;
+}
