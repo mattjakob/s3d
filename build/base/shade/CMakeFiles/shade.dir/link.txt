@@ -1,0 +1,2 @@
+/usr/bin/ar cr libshade.a  CMakeFiles/shade.dir/illum.c.o CMakeFiles/shade.dir/lang.c.o CMakeFiles/shade.dir/light.c.o CMakeFiles/shade.dir/material.c.o CMakeFiles/shade.dir/misc.c.o CMakeFiles/shade.dir/shade.c.o
+/usr/bin/ranlib libshade.a

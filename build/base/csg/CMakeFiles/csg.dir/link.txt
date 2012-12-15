@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcsg.a  CMakeFiles/csg.dir/csg.c.o CMakeFiles/csg.dir/lex.c.o CMakeFiles/csg.dir/lang.c.o CMakeFiles/csg.dir/ops.c.o
+/usr/bin/ranlib libcsg.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libprim.a  CMakeFiles/prim.dir/prim.c.o CMakeFiles/prim.dir/sphere.c.o
+/usr/bin/ranlib libprim.a

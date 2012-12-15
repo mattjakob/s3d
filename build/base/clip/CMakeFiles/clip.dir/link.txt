@@ -1,0 +1,2 @@
+/usr/bin/ar cr libclip.a  CMakeFiles/clip.dir/clip.c.o CMakeFiles/clip.dir/cull.c.o CMakeFiles/clip.dir/twopass.c.o
+/usr/bin/ranlib libclip.a

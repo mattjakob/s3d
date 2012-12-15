@@ -1,0 +1,2 @@
+/usr/bin/ar cr liblang.a  CMakeFiles/lang.dir/parser.c.o CMakeFiles/lang.dir/lex.c.o CMakeFiles/lang.dir/node.c.o CMakeFiles/lang.dir/pv.c.o CMakeFiles/lang.dir/pvl.c.o CMakeFiles/lang.dir/symbol.c.o
+/usr/bin/ranlib liblang.a

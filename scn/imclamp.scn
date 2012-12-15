@@ -1,0 +1,13 @@
+scene{
+	camera = view {
+		from = {.8, 1.3, 1.1}, at = {0, 0, 0}, roll = 0, fov = 90
+		},
+	light = dist_light {direction = {1, 1, 1} },
+	light = dist_light {direction = {-1, -1, -1} },
+	object = primobj{ 
+		material = textured { ka = .2, kd = 0.8, ks = 0.4, se = 20,
+				tex_src = imagemap { fname = "amber.ppm"},
+				code = "clamp", bg_col = {.8,.8,.8} },
+		shape = sphere { center = {0, 0, 0}}},
+};
+

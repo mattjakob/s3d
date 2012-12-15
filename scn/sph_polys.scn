@@ -1,0 +1,41 @@
+scene{
+
+	camera = view {
+		from = {0, 5, -5.5}, at = {0, 0, 1}, up = {0,1,0}, fov = 60
+		},
+	
+	light = dist_light {direction = {0, 1, 1} },
+
+	object = primobj{ 
+		material = plastic {  ka = .2, kd = 0.1, ks = .6, kt = .8, 
+				d_col = {1, 1, 1}, s_col = {1,1,1}},
+		shape = sphere { center = {0, 0, 0}, radius = 1.5}},
+
+	object = primobj{ 
+		material = plastic {  ka = .2, kd = 0.4, kt = 0, ks = .6,
+				d_col = {.5, .9, .1}, s_col = {1,1,1}},
+		shape = sphere { center = {-2.5, 0, 1}, radius = .8}},
+
+	object = primobj{ 
+		material = plastic {  ka = .2, kd = 0.8, ks = 0.5, kt =0, 
+				d_col = {1, .9, .1}, s_col = {1,1,1}},
+		shape = sphere { center = {2, 1.5, 2}, radius = 1.1}},
+
+	object = polyobj {
+		material = plastic { kd = 1, ks = 0, kt = 0,
+				d_col = {1, 1, 1}, s_col = {1,1,1}},
+		shape = trilist {
+		{{1, -1, 1.5},  {-2, -1, 1.5},  {1, 1, 1.5}},
+		{{1, 1, 1.5},  {-2, -1, 1.5},  {-2, 1, 1.5}}
+		}},
+ 
+	object = polyobj {
+		material = plastic { se = 1 , kd = 1, ks = 0, kt = 0,
+				d_col = {.5, .5, .9}, s_col = {1,1,1}},
+		shape = trilist {
+		{{-5, -2, -5 },  {5, -2, -5 },  {5, -2, 5 }},
+		{{-5, -2, -5 },  {5, -2, 5 },  {-5, -2, 5 }}
+		}},
+ 
+};
+

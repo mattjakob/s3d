@@ -1,0 +1,2 @@
+/usr/bin/ar cr libview.a  CMakeFiles/view.dir/def.c.o CMakeFiles/view.dir/lang.c.o CMakeFiles/view.dir/set.c.o
+/usr/bin/ranlib libview.a

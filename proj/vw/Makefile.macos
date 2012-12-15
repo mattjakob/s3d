@@ -1,0 +1,26 @@
+BINDIR = ../../bin
+LIBDIR = ../../lib
+INCLUDE = ../../include
+
+CC = gcc
+CFLAGS = -g -I$(INCLUDE) `sdl-config --cflags`
+LIBS =   ../../lib/libimg.a ../../lib/libcolor.a ../../lib/libgp.a ../../lib/libgutil.a ../../lib/libgeom.a ../../lib/libaux.a  -framework OpenGL
+			
+SDLLIBS=`sdl-config --libs`
+
+HEADERS =
+OBJS = main.o
+BIN = vw
+
+$(BIN): $(OBJS) $(HEADERS)
+	$(CC) -o $(BIN) $(OBJS) $(LIBS) $(SDLLIBS)
+
+tst:  tst.c
+	$(CC) -o tst tst.c $(CFLAGS)  $(LIBS)
+
+install: $(BIN)
+	mv $(BIN) $(BINDIR)
+
+clean:
+	rm -f $(BIN) *.o *~
+

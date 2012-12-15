@@ -1,0 +1,20 @@
+scene{
+  object = group{
+            transform = { translate {v = {0, .0, 0}},
+                          rotate {z = 0 }},
+            children = group {
+			 transform = { translate {v = {.1, 0, 0}},
+				       scale {v = {1, .4, .4}}},
+                         children = primobj{ shape = sphere{radius = .1 }}
+                        },
+            transform = { translate {v = {.2, 0, 0}},
+                          rotate {z = 0 }},
+            children = group {
+			  transform = { translate {v = {.2, 0, 0}},
+			                scale {v = {2, .4, .4}}},
+                          children = primobj{ shape = sphere{radius = .1}}
+                       }
+
+	}
+};
+

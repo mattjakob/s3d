@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../base/laux/defs.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+laux.h
+../base/laux/laux.h
+
+../base/laux/laux.h
+
+/Users/mattjakob/Downloads/s3d/base/geom/geom.h
+defs.h
+/Users/mattjakob/Downloads/s3d/base/geom/defs.h
+
+/Users/mattjakob/Downloads/s3d/base/geom/inode.c
+ray.h
+/Users/mattjakob/Downloads/s3d/base/geom/ray.h
+
+/Users/mattjakob/Downloads/s3d/base/geom/matrix.c
+geom.h
+/Users/mattjakob/Downloads/s3d/base/geom/geom.h
+
+/Users/mattjakob/Downloads/s3d/base/geom/ray.c
+ray.h
+/Users/mattjakob/Downloads/s3d/base/geom/ray.h
+
+/Users/mattjakob/Downloads/s3d/base/geom/ray.h
+defs.h
+/Users/mattjakob/Downloads/s3d/base/geom/defs.h
+geom.h
+/Users/mattjakob/Downloads/s3d/base/geom/geom.h
+
+/Users/mattjakob/Downloads/s3d/base/geom/vector.c
+geom.h
+/Users/mattjakob/Downloads/s3d/base/geom/geom.h
+

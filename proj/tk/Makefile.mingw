@@ -1,0 +1,21 @@
+# makefile
+
+
+BINDIR = ../../bin
+
+CC=gcc
+CFLAGS= -g -I../../include `sdl-config --cflags`
+LIBS= ../../lib/libgp.a ../../lib/libgutil.a ../../lib/libgeom.a ../../lib/libaux.a  -lm -mwindows -mconsole -lopengl32 -lglu32
+SDLLIBS=`sdl-config --libs`
+
+BIN = tk.exe
+
+tk.exe: main.o tk.o
+	$(CC) -g -o $(BIN) main.o tk.o $(LIBS) $(SDLLIBS)
+
+install: $(BIN)
+	mv $(BIN) $(BINDIR)
+
+clean:
+	rm -f *.o $(BIN)
+

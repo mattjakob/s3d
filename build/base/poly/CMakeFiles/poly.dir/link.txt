@@ -1,0 +1,2 @@
+/usr/bin/ar cr libpoly.a  CMakeFiles/poly.dir/hpoly.c.o CMakeFiles/poly.dir/poly.c.o
+/usr/bin/ranlib libpoly.a

@@ -1,0 +1,31 @@
+BINDIR = ../../bin
+LIBDIR = ../../lib
+INCLUDE = ../../include
+
+CC = gcc
+CFLAGS = -g -I$(INCLUDE)
+LIBS = $(LIBDIR)/libmap.a \
+        $(LIBDIR)/librad.a $(LIBDIR)/libray.a \
+        $(LIBDIR)/libvisib.a $(LIBDIR)/libhier.a \
+        $(LIBDIR)/libscene.a $(LIBDIR)/libshade.a \
+        $(LIBDIR)/libraster.a $(LIBDIR)/libclip.a \
+        $(LIBDIR)/libview.a \
+        $(LIBDIR)/libcsg.a $(LIBDIR)/libprim.a \
+        $(LIBDIR)/libpoly.a $(LIBDIR)/liblang.a \
+        $(LIBDIR)/libimg.a $(LIBDIR)/libcolor.a \
+        $(LIBDIR)/libgeom.a $(LIBDIR)/libaux.a $(LIBDIR)/libgp.a \
+	-lm -mwindows
+
+HEADERS = main.h 
+OBJS = main.o
+BIN = zsort.exe
+
+$(BIN): $(OBJS) $(HEADERS)
+	$(CC) -o $(BIN) $(OBJS) $(LIBS)
+
+install: $(BIN)
+	mv $(BIN) $(BINDIR)
+
+clean:
+	rm -f $(BIN) *.o *~
+

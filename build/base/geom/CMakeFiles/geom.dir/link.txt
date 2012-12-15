@@ -1,0 +1,2 @@
+/usr/bin/ar cr libgeom.a  CMakeFiles/geom.dir/inode.c.o CMakeFiles/geom.dir/matrix.c.o CMakeFiles/geom.dir/ray.c.o CMakeFiles/geom.dir/vector.c.o
+/usr/bin/ranlib libgeom.a

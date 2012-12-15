@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "\nRunning All demos of the S3D software\n\n"
+
+/bin/sh d0.sh
+/bin/sh d1.sh
+/bin/sh d2.sh
+/bin/sh d3.sh
+/bin/sh d4.sh
+/bin/sh d5.sh
+/bin/sh d6.sh
+/bin/sh d7.sh

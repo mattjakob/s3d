@@ -1,0 +1,18 @@
+scene{
+	camera = view {
+		from = {0, 20, 0}, at = {3.5, 2.5, 0}, up = {0, 0, 1}, fov = 90
+		},
+	light = dist_light {direction = {0, 1, -1} },
+	light = dist_light {direction = {0, 1, 0} },
+	object = primobj{ 
+		material = textured { ka = .2, kd = 0.8, ks = 0.0
+			tex_src = chequer { x_freq = 8, y_freq = .5, 
+					    fg_col = {.25, .25, .25} }},
+		shape = sphere { center = {0, 0, 0}, radius = 10}
+},
+	object = primobj{ 
+		material = textured { ka = .2, kd = 0.8, ks = 0.0 
+			tex_src = imagemap { fname = "mandrill.ppm"}},
+		shape = sphere { center = {25, -10., 12.5}, radius = 10}},
+};
+

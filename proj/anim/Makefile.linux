@@ -1,0 +1,32 @@
+BINDIR = ../../bin
+LIBDIR = ../../lib
+INCLUDE = ../../include
+
+CC = gcc
+CFLAGS = -g -I$(INCLUDE) `sdl-config --cflags`
+LIBS = $(LIBDIR)/libanim.a $(LIBDIR)/libplot.a $(LIBDIR)/libmap.a \
+	$(LIBDIR)/librad.a $(LIBDIR)/libray.a \
+	$(LIBDIR)/libvisib.a $(LIBDIR)/libhier.a \
+	$(LIBDIR)/libscene.a $(LIBDIR)/libshade.a \
+	$(LIBDIR)/libraster.a $(LIBDIR)/libclip.a \
+	$(LIBDIR)/libview.a \
+	$(LIBDIR)/libcsg.a $(LIBDIR)/libprim.a \
+	$(LIBDIR)/libpoly.a $(LIBDIR)/liblang.a \
+	$(LIBDIR)/libimg.a $(LIBDIR)/libcolor.a \
+	$(LIBDIR)/libgeom.a $(LIBDIR)/libaux.a $(LIBDIR)/libgp.a \
+	-lm -L/usr/X11R6/lib -lX11 -lGL -lGLU
+SDLLIBS=`sdl-config --libs`
+
+HEADERS = main.h
+OBJS = main.o
+BIN = anim
+
+$(BIN): $(OBJS) $(HEADERS)
+	$(CC) -o $(BIN) $(OBJS) $(LIBS) $(SDLLIBS)
+
+install: $(BIN)
+	mv $(BIN) $(BINDIR)
+
+clean:
+	rm -f $(BIN) *.o *~
+

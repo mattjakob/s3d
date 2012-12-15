@@ -1,0 +1,2 @@
+/usr/bin/ar cr libvisib.a  CMakeFiles/visib.dir/rt.c.o CMakeFiles/visib.dir/rtcsg.c.o CMakeFiles/visib.dir/zbuf.c.o CMakeFiles/visib.dir/zsort.c.o
+/usr/bin/ranlib libvisib.a

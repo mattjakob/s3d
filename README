@@ -1,0 +1,83 @@
+
+S3D Software
+============
+
+
+This is the companion software package of the book
+"Design and Implementation of 3D Graphics Systems" 
+by Jonas Gomes, Luiz Velho, Mario Costa Sousa.
+
+The software contains an implementation of all the
+algorithms described in the book.
+
+
+CONTENTS
+--------
+
+The directory hierarchy structure is as follows:
+
+./s3d
+     /base    - Source of the Base library
+     /proj    - Source of the Applications
+     /model   - Geometric Model
+     /scn     - 3D Scene Files
+     /pic     - Images
+     /demo    - Scripts to Run the demos
+     /build         - CMAKE build dir
+     /build/bin     - Executables
+     /build/lib     - Libraries
+     /build/include - Header files
+
+
+INSTALLATION
+------------
+
+To install the software run these commands in the "build" directory
+    cmake ..
+    make
+    make install
+
+This should generate, compile and install the libraries and applications.
+
+
+TESTING
+-------
+
+To play the demos, run the main shell in the demo directory
+  cd demo
+  sh run-all
+
+This will execute all applications with test data.
+
+
+COMPATIBILITY
+-------------
+
+This software was developed using GNU tools under the
+Linux operating system. It has also been ported to
+MacOS X and the Windows environment using MinGW.
+
+
+REQUIREMENTS
+------------
+
+The software needs the following development tools
+ cmake, sh, make, gcc, bison, flex.
+Also the graphics output needs the SDL library.
+
+
+NOTES on MinGW INSTALLATION
+---------------------------
+
+1. Install MinGW
+2. Install MSYS
+3. Get and Unzip langtools.zip on MinGW root
+4. Untar s3d.tar.gz (do not use winzip!) 
+
+
+UPDATES
+-------
+
+For updates and more information go to the book website:
+
+Copyright  - Jonas Gomes, Luiz Velho, Mario Costa Sousa

@@ -1,0 +1,22 @@
+# makefile
+# Luiz Henrique de Figueiredo
+# 04 Mar 93
+
+BINDIR = ../../bin
+
+CC=gcc
+CFLAGS= -g -I../../include `sdl-config --cflags`
+LIBS= ../../lib/libgp.a ../../lib/libgutil.a ../../lib/libgeom.a ../../lib/libaux.a  -lm -mwindows -mconsole -lopengl32 -lglu32
+SDLLIBS=`sdl-config --libs`
+
+BIN = ple.exe
+
+ple.exe: main.o 
+	$(CC) -g -o $(BIN) main.o $(LIBS) $(SDLLIBS)
+
+install: $(BIN)
+	mv $(BIN) $(BINDIR)
+
+clean:
+	rm -f *.o $(BIN)
+

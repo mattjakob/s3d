@@ -1,0 +1,2 @@
+/usr/bin/ar cr libgener.a  CMakeFiles/gener.dir/affine.c.o CMakeFiles/gener.dir/rotsurf.c.o
+/usr/bin/ranlib libgener.a

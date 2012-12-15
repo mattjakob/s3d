@@ -1,0 +1,28 @@
+scene{
+  camera = view{ from = {0, 0.2, -1.2},
+                  at = {0, 0, 0},
+                  up = {0,1,0},
+                  fov = 60,
+		  imgw=512, imgh=512 },
+	
+  light = dist_light{ direction = {0, 1, 1} },
+
+  object = group{
+            transform = { translate {v = {0, .0, 0}},
+                          rotate {z = motor{ arg{ v1 = .2 }}}},
+            children = group {
+			 transform = { translate {v = {.1, 0, 0}},
+				       scale {v = {1, .4, .4}}},
+                         children = primobj{ shape = sphere{radius = .1 }}
+                        },
+            transform = { translate {v = {.2, 0, 0}},
+                          rotate {z = motor{ arg{ v2 = .1 }}}},
+            children = group {
+			  transform = { translate {v = {.2, 0, 0}},
+			                scale {v = {2, .4, .4}}},
+                          children = primobj{ shape = sphere{radius = .1}}
+                       }
+
+	}
+};
+

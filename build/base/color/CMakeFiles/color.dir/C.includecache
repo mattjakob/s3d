@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../base/geom/geom.h
+defs.h
+../base/geom/defs.h
+
+../base/laux/defs.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+laux.h
+../base/laux/laux.h
+
+../base/laux/laux.h
+
+/Users/mattjakob/Downloads/s3d/base/color/color.h
+geom.h
+/Users/mattjakob/Downloads/s3d/base/color/geom.h
+
+/Users/mattjakob/Downloads/s3d/base/color/conv.c
+color.h
+/Users/mattjakob/Downloads/s3d/base/color/color.h
+
+/Users/mattjakob/Downloads/s3d/base/color/index.c
+color.h
+/Users/mattjakob/Downloads/s3d/base/color/color.h
+
+/Users/mattjakob/Downloads/s3d/base/color/rgbhsv.c
+color.h
+/Users/mattjakob/Downloads/s3d/base/color/color.h
+

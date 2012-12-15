@@ -1,0 +1,13 @@
+scene{
+	camera = view {
+		from = {0, -.5, 2}, at = {0, 0, 0}, up = {0, 1, 0}, fov = 80
+		},
+	light = dist_light {direction = {1, 1, 1} },
+	light = dist_light {direction = {0, 1, 2} },
+	object = primobj{ 
+		material = textured { ka = .4, kd = 0.8, ks = 0.4, se = 20,
+				tex_src = imagemap { fname = "amber.ppm"},
+				code = "tile", bg_col = {.8,.8,.8} },
+		shape = sphere { center = {0, 0, 0}}},
+};
+

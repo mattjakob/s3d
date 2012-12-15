@@ -1,0 +1,11 @@
+scene{
+        camera = view {
+                from = {0, -1, 2}, at = {0, 0, 0}, roll = 0, fov = 60
+                },
+        light = dist_light {direction = {1, 1, -1} },
+        light = dist_light {direction = {0, 1, 2} },
+        object = primobj{ 
+                material = rough { ka = .2, kd = 0.8,
+                                tex_src = imagemap { fname = "pits.ppm"} },
+                shape = sphere { center = {0, 0, 0}}},
+};

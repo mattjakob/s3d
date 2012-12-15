@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmap.a  CMakeFiles/map.dir/funcs.c.o CMakeFiles/map.dir/image.c.o CMakeFiles/map.dir/lang.c.o CMakeFiles/map.dir/light.c.o CMakeFiles/map.dir/map.c.o CMakeFiles/map.dir/material.c.o CMakeFiles/map.dir/shade.c.o
+/usr/bin/ranlib libmap.a

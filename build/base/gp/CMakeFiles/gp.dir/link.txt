@@ -1,0 +1,2 @@
+/usr/bin/ar cr libgp.a  CMakeFiles/gp.dir/dv.c.o CMakeFiles/gp.dir/font.c.o CMakeFiles/gp.dir/gp.c.o
+/usr/bin/ranlib libgp.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libray.a  CMakeFiles/ray.dir/rshade.c.o
+/usr/bin/ranlib libray.a

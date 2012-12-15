@@ -1,0 +1,2 @@
+/usr/bin/ar cr libhier.a  CMakeFiles/hier.dir/hier.c.o CMakeFiles/hier.dir/stack.c.o
+/usr/bin/ranlib libhier.a

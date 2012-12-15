@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mattjakob/Downloads/s3d/base/laux/defs.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+laux.h
+/Users/mattjakob/Downloads/s3d/base/laux/laux.h
+
+/Users/mattjakob/Downloads/s3d/base/laux/error.c
+defs.h
+/Users/mattjakob/Downloads/s3d/base/laux/defs.h
+
+/Users/mattjakob/Downloads/s3d/base/laux/io.c
+defs.h
+/Users/mattjakob/Downloads/s3d/base/laux/defs.h
+signal.h
+-
+
+/Users/mattjakob/Downloads/s3d/base/laux/laux.h
+
+/Users/mattjakob/Downloads/s3d/base/laux/list.c
+defs.h
+/Users/mattjakob/Downloads/s3d/base/laux/defs.h
+list.h
+/Users/mattjakob/Downloads/s3d/base/laux/list.h
+
+/Users/mattjakob/Downloads/s3d/base/laux/list.h
+
+/Users/mattjakob/Downloads/s3d/base/laux/mem.c
+stdlib.h
+-
+defs.h
+/Users/mattjakob/Downloads/s3d/base/laux/defs.h
+

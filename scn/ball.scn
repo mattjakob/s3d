@@ -1,0 +1,15 @@
+scene{
+
+	camera = view {
+		from = {0, 0.5, -1.5}, at = {0, 0, 0}, up = {0,1,0}, fov = 60
+		},
+	
+	light = dist_light {direction = {0, 1, 1} },
+
+        object = group {
+                  transform = rotate{ z = motor{ arg{ v1 = .2 }} },
+                  children = primobj{ shape = sphere{ radius = .1,
+						      center = {0.2, 0, 0} }}
+	}
+};
+

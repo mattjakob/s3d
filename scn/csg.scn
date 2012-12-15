@@ -1,0 +1,17 @@
+scene{
+
+	camera = view {
+		from = {0, 0, -4}, at = {0, 0, 0}, up = {0,1,0}, fov = 60
+		},
+	
+	light = dist_light {direction = {0, 1, -1} },
+
+	object = csgobj{ 
+		material = plastic {  ka = .2, kd = 0.8, ks = 0.0 },
+		shape = csg_diff {
+				csg_prim{ sphere { center = {0, 0,  0}}},
+				csg_prim{ sphere { center = {1, 1, -1}}}
+			}
+	}
+};
+

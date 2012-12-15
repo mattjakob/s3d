@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+d9c949020d55563d31b9224ca353c018 base/csg/csg.c
+b006edd26a5fc9b4cfdaa880bbb9431c base/csg/lex.c
+4e0aeef55cae1f25217719f3e60424f2 base/lang/parser.c
+35411f023024d76641b8751b1c8e5121 base/lang/y.tab.h

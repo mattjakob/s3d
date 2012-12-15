@@ -1,0 +1,2 @@
+/usr/bin/ar cr libplot.a  CMakeFiles/plot.dir/ortho.c.o CMakeFiles/plot.dir/plot.c.o
+/usr/bin/ranlib libplot.a

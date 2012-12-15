@@ -1,0 +1,2 @@
+/usr/bin/ar cr libscene.a  CMakeFiles/scene.dir/obj.c.o CMakeFiles/scene.dir/scene.c.o
+/usr/bin/ranlib libscene.a

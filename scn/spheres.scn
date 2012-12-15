@@ -1,0 +1,16 @@
+scene{
+
+	camera = view {
+		from = {0, 0, -2.5}, at = {0, .5, 0}, up = {0,1,0}, fov = 90
+		},
+	
+	light = dist_light {direction = {0, 1, -1} },
+
+	object = primobj{ 
+		material = plastic {  ka = .2, kd = 0.8, ks = 0.0 },
+		shape = sphere { center = {0, 0, 0}}},
+	object = primobj{ 
+		material = plastic {  ka = .2, kd = 0.8, ks = 0.0 },
+		shape = sphere { center = {2, 2, 2}}},
+};
+

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libgutil.a  CMakeFiles/gutil.dir/cb.c.o CMakeFiles/gutil.dir/md.c.o CMakeFiles/gutil.dir/mv.c.o CMakeFiles/gutil.dir/mvcb.c.o
+/usr/bin/ranlib libgutil.a

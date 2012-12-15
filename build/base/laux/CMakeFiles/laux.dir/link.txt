@@ -1,0 +1,2 @@
+/usr/bin/ar cr liblaux.a  CMakeFiles/laux.dir/error.c.o CMakeFiles/laux.dir/io.c.o CMakeFiles/laux.dir/list.c.o CMakeFiles/laux.dir/mem.c.o
+/usr/bin/ranlib liblaux.a

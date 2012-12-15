@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcolor.a  CMakeFiles/color.dir/conv.c.o CMakeFiles/color.dir/index.c.o CMakeFiles/color.dir/rgbhsv.c.o
+/usr/bin/ranlib libcolor.a

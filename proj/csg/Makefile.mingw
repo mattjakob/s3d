@@ -1,0 +1,28 @@
+BIN 	   = csg.exe
+OBJS	   = main.o
+HDRS	   =
+
+CGBIN	   = ../../bin
+CGLIB	   = ../../lib
+CGINCLUDE  = ../../include
+INCLUDE	   = -I$(CGINCLUDE)
+
+LIBCG	   = $(CGLIB)/libcsg.a $(CGLIB)/libprim.a \
+	     $(CGLIB)/libpoly.a $(CGLIB)/liblang.a \
+	     $(CGLIB)/libgeom.a $(CGLIB)/libaux.a  $(CGLIB)/libgp.a
+LIBUNIX	    = -lm
+LIBS = $(LIBCG) $(LIBUNIX) -mwindows -mconsole
+
+CC = gcc
+CFLAGS = -g  $(INCLUDE)
+
+
+$(BIN): main.o
+	gcc -o $(BIN)  main.o $(LIBS)
+
+install: $(BIN)
+	mv $(BIN) $(CGBIN)
+
+clean:
+	rm -f *.o *~ $(BIN)
+

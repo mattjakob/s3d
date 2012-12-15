@@ -1,0 +1,2 @@
+/usr/bin/ar cr libanim.a  CMakeFiles/anim.dir/anim.c.o CMakeFiles/anim.dir/arg.c.o CMakeFiles/anim.dir/time.c.o
+/usr/bin/ranlib libanim.a

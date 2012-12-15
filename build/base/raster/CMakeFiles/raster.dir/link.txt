@@ -1,0 +1,2 @@
+/usr/bin/ar cr libraster.a  CMakeFiles/raster.dir/scan_obj.c.o CMakeFiles/raster.dir/scan_space.c.o CMakeFiles/raster.dir/subdiv_obj.c.o CMakeFiles/raster.dir/subdiv_space.c.o
+/usr/bin/ranlib libraster.a

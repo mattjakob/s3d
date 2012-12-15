@@ -1,0 +1,2 @@
+/usr/bin/ar cr librad.a  CMakeFiles/rad.dir/radiosity.c.o
+/usr/bin/ranlib librad.a
